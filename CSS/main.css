@@ -14,7 +14,7 @@ html, body {
 p {
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 24px;
-  padding: 1.5rem 0;
+  padding: 0.5rem 0 4rem 0;
 }
 
 h1 {
@@ -28,17 +28,14 @@ main {
   flex-direction: row;
   align-items: stretch;
   justify-content: center;
-
-}
-
-.main-wrapper {
-  display: flex;
+  padding-top: 6rem;
 }
 
 .card {
-  padding: 60px;
+  padding: 50px;
   display: inline-block;
-  min-width: 300px;
+  width: 200px;
+  height: 400px;
 }
 
 .sedans {
@@ -60,7 +57,7 @@ main {
 .btn-main {
   background-color: hsl(0, 0%, 95%);
   border-radius: 25px;
-  padding: 14px 20px;
+  padding: 14px 28px;
   border: none;
   font-weight: bolder;
 }
@@ -101,4 +98,16 @@ main {
 
 .attribution {
   color: black;
+  text-align: center;
+  margin-top: 28px;
+  padding-bottom: 40px;
 }
+
+.attribution a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px){
+
+  }
